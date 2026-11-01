@@ -1,15 +1,15 @@
 {
-    "version":  "0.86.1",
-    "notes":  "Dahu 0.86.1 beta: no more \u0027Save changes to Recovered.dahu\u0027 after a clean quit; touchpad pinch zooms with Navigation set to Mouse. Unsigned: on first install choose More info \u003e Run anyway.",
-    "pub_date":  "2026-11-01T19:37:54Z",
+    "version":  "0.86.2",
+    "notes":  "Dahu 0.86.2 beta: Don\u0027t save now discards changes (no \u0027Recovered.dahu\u0027 at the next start; recovery only after a crash); update notice stays above the view labels. Unsigned: on first install choose More info \u003e Run anyway.",
+    "pub_date":  "2026-11-01T20:04:05Z",
     "platforms":  {
                       "windows-x86_64-nsis":  {
-                                                  "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN3Q4WGlhQ09yVUVFL0VCWlJGUWtvQ29semR3NWttZFhRaURwb2hpT0ZnNDFQV3dkTmtGL0ZTaTI3WnREUzhkODAxa0JLL09tRklrYWFHTXRnWVhXM0E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNTYxNTcwCWZpbGU6RGFodV8wLjg2LjFfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuODYuMQozMVROaDVLK3NZUnNWVG1BOU5KbGQxTThhRFN5Rzg0TmdVMTMxSWJuWW5Eam1ON0RDV28wY0x3SjlEb3lOajI0OHpJOWkxVVF6RWpIc0ZxVGVQSk1BQT09Cg==",
-                                                  "url":  "https://github.com/mscanga/dahu-releases/releases/download/v0.86.1/Dahu_0.86.1_x64-setup.exe"
+                                                  "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN2dNMnZwZDJWOStNRjFWeWYyVWFLbkwwaGkzelQ1ZGlmU0F5UlY0ditFTE5oYW1IRVg3QjhMblhRS1hzNU40WFBsOWYyMFd4RDVtRjJQNEl2MGFEbmdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNTYzNDExCWZpbGU6RGFodV8wLjg2LjJfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuODYuMgpaQlk1WTRPeXhLUElGU1hHYmxLWVZlRE9xam5QTHZPY01sMkhyT0xjak5aS1l6OE1YWDlUSEdKYVczZ2Z1MXMxSUMwQzViMjI4Zll3Y0Y3Z0R1U2RCdz09Cg==",
+                                                  "url":  "https://github.com/mscanga/dahu-releases/releases/download/v0.86.2/Dahu_0.86.2_x64-setup.exe"
                                               },
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN3Q4WGlhQ09yVUVFL0VCWlJGUWtvQ29semR3NWttZFhRaURwb2hpT0ZnNDFQV3dkTmtGL0ZTaTI3WnREUzhkODAxa0JLL09tRklrYWFHTXRnWVhXM0E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNTYxNTcwCWZpbGU6RGFodV8wLjg2LjFfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuODYuMQozMVROaDVLK3NZUnNWVG1BOU5KbGQxTThhRFN5Rzg0TmdVMTMxSWJuWW5Eam1ON0RDV28wY0x3SjlEb3lOajI0OHpJOWkxVVF6RWpIc0ZxVGVQSk1BQT09Cg==",
-                                             "url":  "https://github.com/mscanga/dahu-releases/releases/download/v0.86.1/Dahu_0.86.1_x64-setup.exe"
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN2dNMnZwZDJWOStNRjFWeWYyVWFLbkwwaGkzelQ1ZGlmU0F5UlY0ditFTE5oYW1IRVg3QjhMblhRS1hzNU40WFBsOWYyMFd4RDVtRjJQNEl2MGFEbmdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNTYzNDExCWZpbGU6RGFodV8wLjg2LjJfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuODYuMgpaQlk1WTRPeXhLUElGU1hHYmxLWVZlRE9xam5QTHZPY01sMkhyT0xjak5aS1l6OE1YWDlUSEdKYVczZ2Z1MXMxSUMwQzViMjI4Zll3Y0Y3Z0R1U2RCdz09Cg==",
+                                             "url":  "https://github.com/mscanga/dahu-releases/releases/download/v0.86.2/Dahu_0.86.2_x64-setup.exe"
                                          }
                   }
 }
