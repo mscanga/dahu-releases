@@ -1,0 +1,15 @@
+{
+    "version":  "0.86.0",
+    "notes":  "Dahu 0.86.0 beta for Windows. Unsigned: on first install choose More info \u003e Run anyway.",
+    "pub_date":  "2026-11-01T18:38:23Z",
+    "platforms":  {
+                      "windows-x86_64-nsis":  {
+                                                  "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN2hLRE5JcUpVLzJIRm9NWEg0ZVZra1l6U3V0ZEF4VktoaFY4RVZLcVJOWGw4UEtVUXFtZTNwYWlSL1BFNmIxdzJhSzdXalplc0RTd1g3d3Zqd0g4MVFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNTU4MjIyCWZpbGU6RGFodV8wLjg2LjBfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuODYuMApvOXo4WnpXbVEzdTQyNzBOUEVVb1VUVklUQWh1WENLL3BYbDQ0WnNNc1R1cWpNT2hXTDVKRitmZnN6L0w5NndxM1B3SE45TU1GVzNKRlVzcE5nZ2ZBZz09Cg==",
+                                                  "url":  "https://github.com/mscanga/dahu-releases/releases/download/v0.86.0/Dahu_0.86.0_x64-setup.exe"
+                                              },
+                      "windows-x86_64":  {
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN2hLRE5JcUpVLzJIRm9NWEg0ZVZra1l6U3V0ZEF4VktoaFY4RVZLcVJOWGw4UEtVUXFtZTNwYWlSL1BFNmIxdzJhSzdXalplc0RTd1g3d3Zqd0g4MVFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNTU4MjIyCWZpbGU6RGFodV8wLjg2LjBfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuODYuMApvOXo4WnpXbVEzdTQyNzBOUEVVb1VUVklUQWh1WENLL3BYbDQ0WnNNc1R1cWpNT2hXTDVKRitmZnN6L0w5NndxM1B3SE45TU1GVzNKRlVzcE5nZ2ZBZz09Cg==",
+                                             "url":  "https://github.com/mscanga/dahu-releases/releases/download/v0.86.0/Dahu_0.86.0_x64-setup.exe"
+                                         }
+                  }
+}
