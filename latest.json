@@ -1,15 +1,15 @@
 {
-    "version":  "0.86.5",
-    "notes":  "Dahu 0.86.5 beta: Dahu\u0027s own title bar (no duplicated Windows bar), new splash window, touchpad pinch zoom, infinite cursor only for gumball drags. Unsigned: on first install choose More info \u003e Run anyway.",
-    "pub_date":  "2026-11-01T22:01:48Z",
-    "platforms":  {
-                      "windows-x86_64-nsis":  {
-                                                  "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN3NFUEtiamxteFZidnEzYVRoR2xab1BmWFJPT1o4eFBkdFBWUjhMR1ArbGxQLy8zenpsRnlHS2U0TDE3M2E4QTNpTUdodTk1aFhjZ2xDc3NxU1hQMUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNTcwNDQwCWZpbGU6RGFodV8wLjg2LjVfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuODYuNQo4djFiYS8zc1BkbWVzb29GTlZLSnAzUlN1Ti9Mb3BIQXdIVFkvM0NHdVRYWUJ1eXVucmxEamRnRlFhZWs2L0UvaURKdnNLVTZXbXVUQlJXaGQybXZBQT09Cg==",
-                                                  "url":  "https://github.com/mscanga/dahu-releases/releases/download/v0.86.5/Dahu_0.86.5_x64-setup.exe"
-                                              },
-                      "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN3NFUEtiamxteFZidnEzYVRoR2xab1BmWFJPT1o4eFBkdFBWUjhMR1ArbGxQLy8zenpsRnlHS2U0TDE3M2E4QTNpTUdodTk1aFhjZ2xDc3NxU1hQMUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNTcwNDQwCWZpbGU6RGFodV8wLjg2LjVfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuODYuNQo4djFiYS8zc1BkbWVzb29GTlZLSnAzUlN1Ti9Mb3BIQXdIVFkvM0NHdVRYWUJ1eXVucmxEamRnRlFhZWs2L0UvaURKdnNLVTZXbXVUQlJXaGQybXZBQT09Cg==",
-                                             "url":  "https://github.com/mscanga/dahu-releases/releases/download/v0.86.5/Dahu_0.86.5_x64-setup.exe"
-                                         }
-                  }
+  "version": "0.89.0",
+  "notes": "Dahu 0.89.0 beta for Windows x64.\n\n### Viewport and interaction\n- Five explicit display modes: Shaded, Shaded + Edges, Ghosted, Ghosted + Edges and Wireframe. Edge-free modes retain surface tint and silhouette feedback when selecting whole objects.\n- Visibility-aware snaps in opaque shaded views and improved handling of edges behind surfaces.\n- Radius and Diameter reuse compatible preselected geometry.\n- Touchpad navigation continues over overlays and the gumball; pinch zoom stays in the modelling viewport. Extrude no longer recentres the view automatically.\n\n### Icons and toolbar\n- Filled, shaded icon families: amber curves, blue surfaces, green solids and purple meshes, with matching light/dark palettes.\n- Corrected fill alignment, Boolean result regions and visible-face mesh triangulation.\n- Separate Surfaces, Solids and Meshes toolbar sections. Surface blends are separate from solid edge finishes; Shell belongs to Solids. Remembered tool choices are preserved.\n- Dedicated document icon featuring the official Dahu logo, distinct from the application icon. File icons take effect after installing the update.\n\n### Validation and installation\n138 automated workflow checks passed, plus native desktop and signed-updater verification. The updater verification uses a dry run and does not install the package.\n\nThe Windows installer is not Authenticode-signed: on first install, Windows may require More info > Run anyway. Corresponding source is included with this beta.\n",
+  "pub_date": "2026-11-02T12:02:23Z",
+  "platforms": {
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN3BtcVVadWFtcXQ4Y0l0aUd6dm9kRnE2ckZlTW1vWE1EeFRFOFhRTmN5N3doZ3JKZmJnR3dQWkJ5ZTZ4MVpweVlPMGV1QVhERVhQd0N0TytNTG9qY2dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjIwODc4CWZpbGU6RGFodV8wLjg5LjBfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuODkuMApnV3V4MjF2bWFLblRiaUJoVnYwYUR5OVZzS3I0L2dLY2lwSTJuYWdSM3N5eXMzTmx1dHZnU1NHM1dvQXRCaWh3c2tRTCswK2RoQjFNdHNsVCtlQmlBQT09Cg==",
+      "url": "https://github.com/mscanga/dahu-releases/releases/download/v0.89.0/Dahu_0.89.0_x64-setup.exe"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN3BtcVVadWFtcXQ4Y0l0aUd6dm9kRnE2ckZlTW1vWE1EeFRFOFhRTmN5N3doZ3JKZmJnR3dQWkJ5ZTZ4MVpweVlPMGV1QVhERVhQd0N0TytNTG9qY2dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzNjIwODc4CWZpbGU6RGFodV8wLjg5LjBfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuODkuMApnV3V4MjF2bWFLblRiaUJoVnYwYUR5OVZzS3I0L2dLY2lwSTJuYWdSM3N5eXMzTmx1dHZnU1NHM1dvQXRCaWh3c2tRTCswK2RoQjFNdHNsVCtlQmlBQT09Cg==",
+      "url": "https://github.com/mscanga/dahu-releases/releases/download/v0.89.0/Dahu_0.89.0_x64-setup.exe"
+    }
+  }
 }
