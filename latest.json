@@ -1,15 +1,15 @@
 {
-  "version": "0.99.0",
-  "notes": "Dahu 0.99.0 beta for Windows.\n\n- Selected surfaces are tinted in Shaded and Ghosted, with or without edges. Whole objects and selected faces share the existing Selection colour preference; picked edges remain distinct and their parent stays neutral.\n- The title bar shows explicit Unsaved changes / Saving… feedback. Healthy recovery runs quietly; recovery failures remain visible.\n- Tool startup keeps reference paragraphs out of the command transcript. Drawing tools show the next point to pick instead of generic control instructions; full descriptions remain in Command reference.\n- The inline command strip starts fresh on New, successful Open and application restart. F2 retains recent local history grouped by document and session. Up/Down command recall is preserved; Save As updates the section name without resetting it.\n- Command history stays on this computer and is not included in shared .dahu project files.",
-  "pub_date": "2026-11-04T17:39:19Z",
+  "version": "0.101.2",
+  "notes": "Dahu 0.101.2 beta for Windows.\n\n- Reorganised Select, Organize and View menus, with floating managers for groups, blocks and saved views.\n- Join reports input counts and open or closed curves and polysurfaces.\n- Fit prioritises the selection; explicit active-view and all-view actions remain available.\n- Edit group names in Properties. Overlapping picks show the group and highlight all its members.\n- More reliable picking near the camera's clipping limits.\n- Preferences > Navigation has a compact Device gestures guide, with aligned Device and Gestures controls.\n- Better toolbar layout on narrow Windows views, preserving full display-mode labels.\r\n",
+  "pub_date": "2026-11-04T20:23:21Z",
   "platforms": {
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN2xpQTAyT0tJUXF2c3FqODdNZXZNNTNrMnNtYUtyZ084ZnZ6VzRENU50ems1SnJwMlBWTmM3THZsTy9qcEhTaGVqajRkSFhMZ3BVWXVMdlpuZzNSMVFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODEzNzU4CWZpbGU6RGFodV8wLjk5LjBfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuOTkuMApQSGwzUGt0UU43dFJYZ09tVXdnSnpsb25GZVRzK2J1dUlHYmk5bVpNaUFOczR3NmVqYUh1YTBBd0FRNUV4Nzd6bEcvMGVXYVNHak1kLzMxN09sRC9BQT09Cg==",
-      "url": "https://github.com/mscanga/dahu-releases/releases/download/v0.99.0/Dahu_0.99.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN2hJYkV4OGFnYzdpR3VYS1JHK200Wngyb21XaVRmRVJTbXhwZzlGUnF2Nm82em5kbmxaaEF6UWc4VjB0bXNTZE9wMXp2dXhDTlZNMFFKVlhjWTNyUXdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODIzNTQzCWZpbGU6RGFodV8wLjEwMS4yX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEwMS4yCnIrZWdmbUpjdG5MN2g1ckpoeGpqNFpNN3RZM29CMkNtMW4zakg5ZDFjN3NZTXVkM3ZmOEhLaWhWdnFBTFFUZzZKRHk4NWRnUzdwU2dNYUs2QkF5eUNBPT0K",
+      "url": "https://github.com/mscanga/dahu-releases/releases/download/v0.101.2/Dahu_0.101.2_x64-setup.exe"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN2xpQTAyT0tJUXF2c3FqODdNZXZNNTNrMnNtYUtyZ084ZnZ6VzRENU50ems1SnJwMlBWTmM3THZsTy9qcEhTaGVqajRkSFhMZ3BVWXVMdlpuZzNSMVFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODEzNzU4CWZpbGU6RGFodV8wLjk5LjBfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuOTkuMApQSGwzUGt0UU43dFJYZ09tVXdnSnpsb25GZVRzK2J1dUlHYmk5bVpNaUFOczR3NmVqYUh1YTBBd0FRNUV4Nzd6bEcvMGVXYVNHak1kLzMxN09sRC9BQT09Cg==",
-      "url": "https://github.com/mscanga/dahu-releases/releases/download/v0.99.0/Dahu_0.99.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN2hJYkV4OGFnYzdpR3VYS1JHK200Wngyb21XaVRmRVJTbXhwZzlGUnF2Nm82em5kbmxaaEF6UWc4VjB0bXNTZE9wMXp2dXhDTlZNMFFKVlhjWTNyUXdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODIzNTQzCWZpbGU6RGFodV8wLjEwMS4yX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEwMS4yCnIrZWdmbUpjdG5MN2g1ckpoeGpqNFpNN3RZM29CMkNtMW4zakg5ZDFjN3NZTXVkM3ZmOEhLaWhWdnFBTFFUZzZKRHk4NWRnUzdwU2dNYUs2QkF5eUNBPT0K",
+      "url": "https://github.com/mscanga/dahu-releases/releases/download/v0.101.2/Dahu_0.101.2_x64-setup.exe"
     }
   }
 }
