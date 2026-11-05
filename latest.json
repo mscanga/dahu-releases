@@ -1,15 +1,15 @@
 {
-  "version": "0.102.1",
-  "notes": "Dahu 0.102.1 beta for Windows\n\n- Revised Saved views and Saved CPlanes managers: stable window, list-only scrolling and visible selection.\n- Single click selects; double-click or Enter restores; F2 and the ellipsis Rename action edit without restoring first.\n- Inline name validation, reliable save/error feedback and protection against delayed changes from another document.\n- Saved views no longer exchange viewport positions. CPlanes include an explicit Restore and align views action.\n- Modelling Undo/Redo preserves current workspace views and saved cameras/CPlanes.\n- View > Align views to CPlane aligns orthographic cameras, grids and drawing planes. Restore World views returns them to World; Perspective and layout remain unchanged.\n- New documents start with World planes, four standard views and a centred, symmetric Perspective.\n\nInstaller and automatic-update package for Windows. Updater signature included; the executable is not Authenticode-signed.",
-  "pub_date": "2026-11-05T12:22:12Z",
+  "version": "0.102.2",
+  "notes": "Dahu 0.102.2 beta for Windows\n\n- Unnamed objects now display their geometry type and a short, persistent identifier in object lists, overlapping-object selection, group members and command references.\n- Object Properties shows an Unnamed placeholder while preserving the actual empty name. Imported names and exported project metadata remain unchanged.\n- Explicit object names and group names retain priority. Display identifiers stay consistent when objects are reordered or deleted.\n\nInstaller and automatic-update package for Windows. Updater signature included; the executable is not Authenticode-signed.",
+  "pub_date": "2026-11-05T14:40:53Z",
   "platforms": {
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN2wwUXRVRnN4UllWUWxucXVTc1FvRnBqaGNqTTgrRzRJbGh3RlRZRDNXSnU0WS9LdGhNWEMvRS9LZmVTTTJ1U0tvLzVqbEFHNFdaNG9ZakNMN2FHMGdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODgwODQzCWZpbGU6RGFodV8wLjEwMi4xX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEwMi4xCm1sQWlNeWJzaVN5M0ZveGJFcFVPWFlXVFQ3STFneUViNW5ac3ozNkxESFd3blNXVFRkS2VzZ2d4enViQVByRmdXQnNaYThrQ0VCMzNlenhKd1lmYkN3PT0K",
-      "url": "https://github.com/mscanga/dahu-releases/releases/download/v0.102.1/Dahu_0.102.1_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN2tPMGp6VlQ1U0R0Z2R3NStES2d6YTVRWE5KU0F4cHpsbEFCVUdDc0pDanZvRnFOdFl5VGpESnBMLzVXWG9xcTlidllkek1xNjh5MEhUU0d6R3BSekFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODg5MTQ1CWZpbGU6RGFodV8wLjEwMi4yX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEwMi4yCnN1VVJFMVBHUHBicmQ3dlBmNGdYbC9nZ3lHTVNjU2diVVR0YnVUblErb1hoNE5rOHNBM2ZJem9mbzl0ZDB3N0I2bUYvWmdPSTQ1c0lLM3VnTEJXVkRnPT0K",
+      "url": "https://github.com/mscanga/dahu-releases/releases/download/v0.102.2/Dahu_0.102.2_x64-setup.exe"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN2wwUXRVRnN4UllWUWxucXVTc1FvRnBqaGNqTTgrRzRJbGh3RlRZRDNXSnU0WS9LdGhNWEMvRS9LZmVTTTJ1U0tvLzVqbEFHNFdaNG9ZakNMN2FHMGdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODgwODQzCWZpbGU6RGFodV8wLjEwMi4xX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEwMi4xCm1sQWlNeWJzaVN5M0ZveGJFcFVPWFlXVFQ3STFneUViNW5ac3ozNkxESFd3blNXVFRkS2VzZ2d4enViQVByRmdXQnNaYThrQ0VCMzNlenhKd1lmYkN3PT0K",
-      "url": "https://github.com/mscanga/dahu-releases/releases/download/v0.102.1/Dahu_0.102.1_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN2tPMGp6VlQ1U0R0Z2R3NStES2d6YTVRWE5KU0F4cHpsbEFCVUdDc0pDanZvRnFOdFl5VGpESnBMLzVXWG9xcTlidllkek1xNjh5MEhUU0d6R3BSekFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODg5MTQ1CWZpbGU6RGFodV8wLjEwMi4yX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEwMi4yCnN1VVJFMVBHUHBicmQ3dlBmNGdYbC9nZ3lHTVNjU2diVVR0YnVUblErb1hoNE5rOHNBM2ZJem9mbzl0ZDB3N0I2bUYvWmdPSTQ1c0lLM3VnTEJXVkRnPT0K",
+      "url": "https://github.com/mscanga/dahu-releases/releases/download/v0.102.2/Dahu_0.102.2_x64-setup.exe"
     }
   }
 }
