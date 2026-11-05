@@ -1,15 +1,15 @@
 {
-  "version": "0.101.4",
-  "notes": "Dahu 0.101.4 beta for Windows\n\n- Consistent command confirmation: Enter/Space accepts the current step; editing a numeric option returns to the command before a second confirmation executes it.\n- Clear Confirm, Back/Esc and Cancel/Esc controls across command options, with existing previews and Undo preserved.\n- Absolute World pointer coordinates in a fixed-width bottom-right area, using the document units and snap-aware updates.\n- Full-width command history and stable viewport dimensions while changing tools.\n\nWindows installer includes a signed automatic-update package. The executable is not Authenticode-signed; Windows may show a publisher warning on first installation.",
-  "pub_date": "2026-11-05T00:11:12Z",
+  "version": "0.102.1",
+  "notes": "Dahu 0.102.1 beta for Windows\n\n- Revised Saved views and Saved CPlanes managers: stable window, list-only scrolling and visible selection.\n- Single click selects; double-click or Enter restores; F2 and the ellipsis Rename action edit without restoring first.\n- Inline name validation, reliable save/error feedback and protection against delayed changes from another document.\n- Saved views no longer exchange viewport positions. CPlanes include an explicit Restore and align views action.\n- Modelling Undo/Redo preserves current workspace views and saved cameras/CPlanes.\n- View > Align views to CPlane aligns orthographic cameras, grids and drawing planes. Restore World views returns them to World; Perspective and layout remain unchanged.\n- New documents start with World planes, four standard views and a centred, symmetric Perspective.\n\nInstaller and automatic-update package for Windows. Updater signature included; the executable is not Authenticode-signed.",
+  "pub_date": "2026-11-05T12:22:12Z",
   "platforms": {
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN3VSYlhyYU80QU1VZllmNWEraEhsT0RMek9lN1pGZXdNWFVlSnBMcUhrK09tU1h1MmZQTVJnRWI1UDg4ajJKOFZtUVViaU5IR01ac3Y3SXB2d21WbWdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODM3MTA3CWZpbGU6RGFodV8wLjEwMS40X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEwMS40CndzdjFVRERFTE1pUkJPK25ncVlCN3EvUDB3ZUpYZ2ZQUjVkNHRwSzdhWTZrYjQxQUlGaStSY3hYS1RYMFlxcSt2R0Jpak5OdEpWWUZET2IvMGwvMUFRPT0K",
-      "url": "https://github.com/mscanga/dahu-releases/releases/download/v0.101.4/Dahu_0.101.4_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN2wwUXRVRnN4UllWUWxucXVTc1FvRnBqaGNqTTgrRzRJbGh3RlRZRDNXSnU0WS9LdGhNWEMvRS9LZmVTTTJ1U0tvLzVqbEFHNFdaNG9ZakNMN2FHMGdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODgwODQzCWZpbGU6RGFodV8wLjEwMi4xX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEwMi4xCm1sQWlNeWJzaVN5M0ZveGJFcFVPWFlXVFQ3STFneUViNW5ac3ozNkxESFd3blNXVFRkS2VzZ2d4enViQVByRmdXQnNaYThrQ0VCMzNlenhKd1lmYkN3PT0K",
+      "url": "https://github.com/mscanga/dahu-releases/releases/download/v0.102.1/Dahu_0.102.1_x64-setup.exe"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN3VSYlhyYU80QU1VZllmNWEraEhsT0RMek9lN1pGZXdNWFVlSnBMcUhrK09tU1h1MmZQTVJnRWI1UDg4ajJKOFZtUVViaU5IR01ac3Y3SXB2d21WbWdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODM3MTA3CWZpbGU6RGFodV8wLjEwMS40X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEwMS40CndzdjFVRERFTE1pUkJPK25ncVlCN3EvUDB3ZUpYZ2ZQUjVkNHRwSzdhWTZrYjQxQUlGaStSY3hYS1RYMFlxcSt2R0Jpak5OdEpWWUZET2IvMGwvMUFRPT0K",
-      "url": "https://github.com/mscanga/dahu-releases/releases/download/v0.101.4/Dahu_0.101.4_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN2wwUXRVRnN4UllWUWxucXVTc1FvRnBqaGNqTTgrRzRJbGh3RlRZRDNXSnU0WS9LdGhNWEMvRS9LZmVTTTJ1U0tvLzVqbEFHNFdaNG9ZakNMN2FHMGdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODgwODQzCWZpbGU6RGFodV8wLjEwMi4xX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEwMi4xCm1sQWlNeWJzaVN5M0ZveGJFcFVPWFlXVFQ3STFneUViNW5ac3ozNkxESFd3blNXVFRkS2VzZ2d4enViQVByRmdXQnNaYThrQ0VCMzNlenhKd1lmYkN3PT0K",
+      "url": "https://github.com/mscanga/dahu-releases/releases/download/v0.102.1/Dahu_0.102.1_x64-setup.exe"
     }
   }
 }
