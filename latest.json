@@ -1,15 +1,15 @@
 {
-  "version": "0.101.2",
-  "notes": "Dahu 0.101.2 beta for Windows.\n\n- Reorganised Select, Organize and View menus, with floating managers for groups, blocks and saved views.\n- Join reports input counts and open or closed curves and polysurfaces.\n- Fit prioritises the selection; explicit active-view and all-view actions remain available.\n- Edit group names in Properties. Overlapping picks show the group and highlight all its members.\n- More reliable picking near the camera's clipping limits.\n- Preferences > Navigation has a compact Device gestures guide, with aligned Device and Gestures controls.\n- Better toolbar layout on narrow Windows views, preserving full display-mode labels.\r\n",
-  "pub_date": "2026-11-04T20:23:21Z",
+  "version": "0.101.4",
+  "notes": "Dahu 0.101.4 beta for Windows\n\n- Consistent command confirmation: Enter/Space accepts the current step; editing a numeric option returns to the command before a second confirmation executes it.\n- Clear Confirm, Back/Esc and Cancel/Esc controls across command options, with existing previews and Undo preserved.\n- Absolute World pointer coordinates in a fixed-width bottom-right area, using the document units and snap-aware updates.\n- Full-width command history and stable viewport dimensions while changing tools.\n\nWindows installer includes a signed automatic-update package. The executable is not Authenticode-signed; Windows may show a publisher warning on first installation.",
+  "pub_date": "2026-11-05T00:11:12Z",
   "platforms": {
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN2hJYkV4OGFnYzdpR3VYS1JHK200Wngyb21XaVRmRVJTbXhwZzlGUnF2Nm82em5kbmxaaEF6UWc4VjB0bXNTZE9wMXp2dXhDTlZNMFFKVlhjWTNyUXdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODIzNTQzCWZpbGU6RGFodV8wLjEwMS4yX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEwMS4yCnIrZWdmbUpjdG5MN2g1ckpoeGpqNFpNN3RZM29CMkNtMW4zakg5ZDFjN3NZTXVkM3ZmOEhLaWhWdnFBTFFUZzZKRHk4NWRnUzdwU2dNYUs2QkF5eUNBPT0K",
-      "url": "https://github.com/mscanga/dahu-releases/releases/download/v0.101.2/Dahu_0.101.2_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN3VSYlhyYU80QU1VZllmNWEraEhsT0RMek9lN1pGZXdNWFVlSnBMcUhrK09tU1h1MmZQTVJnRWI1UDg4ajJKOFZtUVViaU5IR01ac3Y3SXB2d21WbWdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODM3MTA3CWZpbGU6RGFodV8wLjEwMS40X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEwMS40CndzdjFVRERFTE1pUkJPK25ncVlCN3EvUDB3ZUpYZ2ZQUjVkNHRwSzdhWTZrYjQxQUlGaStSY3hYS1RYMFlxcSt2R0Jpak5OdEpWWUZET2IvMGwvMUFRPT0K",
+      "url": "https://github.com/mscanga/dahu-releases/releases/download/v0.101.4/Dahu_0.101.4_x64-setup.exe"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN2hJYkV4OGFnYzdpR3VYS1JHK200Wngyb21XaVRmRVJTbXhwZzlGUnF2Nm82em5kbmxaaEF6UWc4VjB0bXNTZE9wMXp2dXhDTlZNMFFKVlhjWTNyUXdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODIzNTQzCWZpbGU6RGFodV8wLjEwMS4yX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEwMS4yCnIrZWdmbUpjdG5MN2g1ckpoeGpqNFpNN3RZM29CMkNtMW4zakg5ZDFjN3NZTXVkM3ZmOEhLaWhWdnFBTFFUZzZKRHk4NWRnUzdwU2dNYUs2QkF5eUNBPT0K",
-      "url": "https://github.com/mscanga/dahu-releases/releases/download/v0.101.2/Dahu_0.101.2_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN3VSYlhyYU80QU1VZllmNWEraEhsT0RMek9lN1pGZXdNWFVlSnBMcUhrK09tU1h1MmZQTVJnRWI1UDg4ajJKOFZtUVViaU5IR01ac3Y3SXB2d21WbWdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODM3MTA3CWZpbGU6RGFodV8wLjEwMS40X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEwMS40CndzdjFVRERFTE1pUkJPK25ncVlCN3EvUDB3ZUpYZ2ZQUjVkNHRwSzdhWTZrYjQxQUlGaStSY3hYS1RYMFlxcSt2R0Jpak5OdEpWWUZET2IvMGwvMUFRPT0K",
+      "url": "https://github.com/mscanga/dahu-releases/releases/download/v0.101.4/Dahu_0.101.4_x64-setup.exe"
     }
   }
 }
