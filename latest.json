@@ -1,15 +1,15 @@
 {
-  "version": "0.102.3",
-  "notes": "Dahu 0.102.3 beta for Windows\n\n- Fixed a false not-responding warning after closing a document and choosing Cancel.\n- Waiting in Save / Don't save / Cancel, a file picker or a blocking update no longer triggers the native close-request timeout once the interface has responded.\n- Repeated close requests are handled independently without overlapping quit dialogs. The emergency Quit / Wait prompt remains available if the interface genuinely stops responding.\n\nInstaller and automatic-update package for Windows. Updater signature included; the executable is not Authenticode-signed.",
-  "pub_date": "2026-11-06T14:35:46Z",
+  "version": "0.102.8",
+  "notes": "## Dahu 0.102.8 beta\n\n- Improved gumball handle picking while preserving the existing appearance: use the inner axis segment for scale and the outer segment or arrow for movement. Rotation handles respond along the full arc.\n- Restored smooth interaction by removing the costly hover processing introduced in the previous test build.\n- Clarified control-point editing scope: curves and single-face surfaces are supported; solids and multi-face polysurfaces are rejected before editing rather than offering an unreliable preview.\n- Reduced temporary memory usage when encoding CAD display data and avoided whole-file copies when reading staged 3DM imports.\n\nKnown limitation: very complex 3DM files can still require excessive memory during viewport preparation. The approximately 1 GB reference case has not completed end-to-end import; this release does not claim to fix it.",
+  "pub_date": "2026-11-08T17:39:26Z",
   "platforms": {
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN3VSSnZNc0Vxd1lkNnV0ZlNYd3daZFcvNmdJNjVGWEJvRDhDWmxKdCtjVDdKRUlBN3RqR2hJL1pNOERKbVNBKzVEWGYzWHNJMVZZZnFVL01FNXUzOVFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTc1MjcyCWZpbGU6RGFodV8wLjEwMi4zX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEwMi4zCnR6dnVrY1dPem1ZTERTUkErMDN0OTJKeEpSTkUvc0Y4b2RTVWpBQkY3dmNQd2owRTRUWGF4LzZzVWFRVHNWQS9lL25rb3FzU05UWnR0T2x4K2puV0NRPT0K",
-      "url": "https://github.com/mscanga/dahu-releases/releases/download/v0.102.3/Dahu_0.102.3_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN2wxazRHdXJ1UjBDRHFWcXBEUSt3SW02RzdpRDZISm9Wcm1NT044d1pkZXpRalZ0bk9wTnM4cDBSemZSaC9aZ1Ftb2RaR3N2Vm0xNFJOMWQ0WEJ2ZXc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MTU4OTg3CWZpbGU6RGFodV8wLjEwMi44X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEwMi44CkJsM0U5UFEzMzI1VXJkN28zdm1IaHRYZFhNVXFLMXFMYU5BUzlCN1lFRFk3Q25Fa0liSzBMR1N4bnZDWG4wZkIzb01jSWUwTitRdHhMWmRDM3BZVkR3PT0K",
+      "url": "https://github.com/mscanga/dahu-releases/releases/download/v0.102.8/Dahu_0.102.8_x64-setup.exe"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN3VSSnZNc0Vxd1lkNnV0ZlNYd3daZFcvNmdJNjVGWEJvRDhDWmxKdCtjVDdKRUlBN3RqR2hJL1pNOERKbVNBKzVEWGYzWHNJMVZZZnFVL01FNXUzOVFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTc1MjcyCWZpbGU6RGFodV8wLjEwMi4zX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEwMi4zCnR6dnVrY1dPem1ZTERTUkErMDN0OTJKeEpSTkUvc0Y4b2RTVWpBQkY3dmNQd2owRTRUWGF4LzZzVWFRVHNWQS9lL25rb3FzU05UWnR0T2x4K2puV0NRPT0K",
-      "url": "https://github.com/mscanga/dahu-releases/releases/download/v0.102.3/Dahu_0.102.3_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN2wxazRHdXJ1UjBDRHFWcXBEUSt3SW02RzdpRDZISm9Wcm1NT044d1pkZXpRalZ0bk9wTnM4cDBSemZSaC9aZ1Ftb2RaR3N2Vm0xNFJOMWQ0WEJ2ZXc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MTU4OTg3CWZpbGU6RGFodV8wLjEwMi44X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEwMi44CkJsM0U5UFEzMzI1VXJkN28zdm1IaHRYZFhNVXFLMXFMYU5BUzlCN1lFRFk3Q25Fa0liSzBMR1N4bnZDWG4wZkIzb01jSWUwTitRdHhMWmRDM3BZVkR3PT0K",
+      "url": "https://github.com/mscanga/dahu-releases/releases/download/v0.102.8/Dahu_0.102.8_x64-setup.exe"
     }
   }
 }
