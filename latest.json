@@ -1,15 +1,15 @@
 {
-    "version":  "0.103.0",
-    "notes":  "Dahu 0.103.0 beta for Windows.\n\n- Gumball: hovering or dragging an axis scale handle lights the whole segment from the centre to its square.\n- Gumball: the centre handle (uniform 3D scale) is neutral grey instead of green, which read as the Y axis.\n- Gumball: Shift while dragging an axis scale square scales uniformly in 3D, as in Rhino.\n- Faster edge hover in Shaded modes on large models (about 14x in a 180,000-triangle test).\n\nUnsigned: on first install choose More info \u003e Run anyway.",
-    "pub_date":  "2026-11-09T09:39:23Z",
+    "version":  "0.104.2",
+    "notes":  "Dahu 0.104.2 beta for Windows.\n\n- Large 3DM files: importing no longer fails with \"Failed to fetch\" when one upload connection drops; uploads use larger chunks and retry lost connections.\n- Large 3DM files: much less memory for imported polygon meshes (a 546 MB test file: geometry engine 9.3 GB -\u003e 4.0 GB). Very large meshes show their border and crease edges instead of every triangle edge; faces, exports and mesh tools always use the full mesh.\n- Since 0.103.0: gumball scale segment highlight, neutral centre handle, Shift for uniform 3D scale; faster edge hover in Shaded modes.\n\nKnown limit: very large models still need several GB of memory in the app window (#165).\n\nUnsigned: on first install choose More info \u003e Run anyway.",
+    "pub_date":  "2026-11-09T17:45:17Z",
     "platforms":  {
                       "windows-x86_64-nsis":  {
-                                                  "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN2tWekwrRVB2N1VuTHZYM3VKdVlTdVF6akNwYXZna0lRQnhRNzhTQmo3cFpNSS9oM002SUdNZmdYMEMzUzlHTnQxMkIzN2hEYVRyWGQ4b3FJZTVtOHdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjE2ODkzCWZpbGU6RGFodV8wLjEwMy4wX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEwMy4wCkR2Z2dNTVlYNVZpSzQ0WVRzR1BqOCtyaW9lUWtTSTFhOWUwVDZ3blpVK2k3dEZuMUpjai9UUmcwcWtFSUV3WjBzWWZZTWgwMjZHNmF5QWhPeDFhR0NBPT0K",
-                                                  "url":  "https://github.com/mscanga/dahu-releases/releases/download/v0.103.0/Dahu_0.103.0_x64-setup.exe"
+                                                  "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN2s3a25CenY0QnlkSjF0clJsK2tZcjhzaTRtNkNlL2gwSEE1ZDM5R2tabHc2ZWFJS0s5QmpXMXZyQm1BSWJibEFOT25ubGNBcjdMbnpFOEQ3Q1gzWFFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjQ1Nzk0CWZpbGU6RGFodV8wLjEwNC4yX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEwNC4yCjQ3ZTRnQnJ3L2ljcnRSQklEUVVGeEFGVVJUdjY1TWc1dWd1Nmp6RDZzamYxUnRtbjNMMERGNHF5eDBUbHRleERSeWpqUzZjcDFIbnBUUFJ1bmpnRERRPT0K",
+                                                  "url":  "https://github.com/mscanga/dahu-releases/releases/download/v0.104.2/Dahu_0.104.2_x64-setup.exe"
                                               },
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN2tWekwrRVB2N1VuTHZYM3VKdVlTdVF6akNwYXZna0lRQnhRNzhTQmo3cFpNSS9oM002SUdNZmdYMEMzUzlHTnQxMkIzN2hEYVRyWGQ4b3FJZTVtOHdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjE2ODkzCWZpbGU6RGFodV8wLjEwMy4wX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEwMy4wCkR2Z2dNTVlYNVZpSzQ0WVRzR1BqOCtyaW9lUWtTSTFhOWUwVDZ3blpVK2k3dEZuMUpjai9UUmcwcWtFSUV3WjBzWWZZTWgwMjZHNmF5QWhPeDFhR0NBPT0K",
-                                             "url":  "https://github.com/mscanga/dahu-releases/releases/download/v0.103.0/Dahu_0.103.0_x64-setup.exe"
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN2s3a25CenY0QnlkSjF0clJsK2tZcjhzaTRtNkNlL2gwSEE1ZDM5R2tabHc2ZWFJS0s5QmpXMXZyQm1BSWJibEFOT25ubGNBcjdMbnpFOEQ3Q1gzWFFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MjQ1Nzk0CWZpbGU6RGFodV8wLjEwNC4yX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEwNC4yCjQ3ZTRnQnJ3L2ljcnRSQklEUVVGeEFGVVJUdjY1TWc1dWd1Nmp6RDZzamYxUnRtbjNMMERGNHF5eDBUbHRleERSeWpqUzZjcDFIbnBUUFJ1bmpnRERRPT0K",
+                                             "url":  "https://github.com/mscanga/dahu-releases/releases/download/v0.104.2/Dahu_0.104.2_x64-setup.exe"
                                          }
                   }
 }
