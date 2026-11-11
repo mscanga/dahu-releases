@@ -1,15 +1,15 @@
 {
-    "version":  "0.112.0",
-    "notes":  "Dahu 0.112.0 beta for Windows.\n\n- Mesh panel follows Rhino\u0027s Mesh dialog: a Density slider (fewer to more polygons) and Detailed controls with Rhino names (Maximum angle, Maximum distance edge to surface, Minimum/Maximum edge length, Refine mesh, Jagged seams, Simple planes). 0 means automatic: tolerances left at 0 come from Density, and the summary reports the values used.\n- OffsetCrv: Side=Pick lets the cursor choose the side and a click applies it; a locked Side ignores the pointer and a click or Enter applies it. The preview shows only the result that will be applied, with a direction arrow. New BothSides option.\n- OffsetSrf: direction arrows along the surface normals (outward on a solid) and a new FlipAll option; a typed Distance only updates the preview, Enter applies.\n- FilletEdge/ChamferEdge: a typed radius or distance only updates the preview; Enter applies, as in Rhino.\n\nUnsigned: on first install choose More info \u003e Run anyway.",
-    "pub_date":  "2026-11-11T17:57:27Z",
+    "version":  "0.112.1",
+    "notes":  "Dahu 0.112.1 beta for Windows.\n\n- Mesh panel: the Density slider now spans the panel, shows its value and has Fewer polygons / More polygons under its ends, with the same look as the Preferences sliders.\n\nUnsigned: on first install choose More info \u003e Run anyway.",
+    "pub_date":  "2026-11-11T18:45:44Z",
     "platforms":  {
                       "windows-x86_64-nsis":  {
-                                                  "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN3QrMm91ZnlxVUt3djlBdTFQVUNnZGNPRkRjK1pnb0JDWkh1YTZwWmR4OW9tZ1lPZEdpTWNtQTNOdVB1YThrN0ZzZEdUZkxSclo4WFZwdlVWaHBGaHdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDE5NTYzCWZpbGU6RGFodV8wLjExMi4wX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjExMi4wCjlMaUE2aUlhamh3dVZKTmZxTWxOaFg4VUxYbkhjNE9VZU9ya3BLZVFRK0syVTlwM25HNldGbmdzY2UxY01BWGNaVVdua2tnYm1scEtWbEkvYlM1RkRRPT0K",
-                                                  "url":  "https://github.com/mscanga/dahu-releases/releases/download/v0.112.0/Dahu_0.112.0_x64-setup.exe"
+                                                  "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN25jUnVqVlFROFJhWnZab0VjT3ViNTZoRS95bktack5WcFU1aFZqR0dkaUt3VHROVWtxcmVjZjV5SUsrVFhLL2dOcVdjSmszK3RQNE5rRUFjS0dWbVFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDIyNDkzCWZpbGU6RGFodV8wLjExMi4xX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjExMi4xCnhJWmFnWWhleTFPTDNzcmQxUEtsVTFJMEIwNGVoUS9aUzN4dmhtUm50VGhOUmQ2QlR3WVJjVmptZmFvcHhvOGxiZzd3aWhJeEY3c0pQaktXVGk3a0N3PT0K",
+                                                  "url":  "https://github.com/mscanga/dahu-releases/releases/download/v0.112.1/Dahu_0.112.1_x64-setup.exe"
                                               },
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN3QrMm91ZnlxVUt3djlBdTFQVUNnZGNPRkRjK1pnb0JDWkh1YTZwWmR4OW9tZ1lPZEdpTWNtQTNOdVB1YThrN0ZzZEdUZkxSclo4WFZwdlVWaHBGaHdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDE5NTYzCWZpbGU6RGFodV8wLjExMi4wX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjExMi4wCjlMaUE2aUlhamh3dVZKTmZxTWxOaFg4VUxYbkhjNE9VZU9ya3BLZVFRK0syVTlwM25HNldGbmdzY2UxY01BWGNaVVdua2tnYm1scEtWbEkvYlM1RkRRPT0K",
-                                             "url":  "https://github.com/mscanga/dahu-releases/releases/download/v0.112.0/Dahu_0.112.0_x64-setup.exe"
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN25jUnVqVlFROFJhWnZab0VjT3ViNTZoRS95bktack5WcFU1aFZqR0dkaUt3VHROVWtxcmVjZjV5SUsrVFhLL2dOcVdjSmszK3RQNE5rRUFjS0dWbVFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDIyNDkzCWZpbGU6RGFodV8wLjExMi4xX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjExMi4xCnhJWmFnWWhleTFPTDNzcmQxUEtsVTFJMEIwNGVoUS9aUzN4dmhtUm50VGhOUmQ2QlR3WVJjVmptZmFvcHhvOGxiZzd3aWhJeEY3c0pQaktXVGk3a0N3PT0K",
+                                             "url":  "https://github.com/mscanga/dahu-releases/releases/download/v0.112.1/Dahu_0.112.1_x64-setup.exe"
                                          }
                   }
 }
