@@ -1,15 +1,15 @@
 {
-    "version":  "0.112.1",
-    "notes":  "Dahu 0.112.1 beta for Windows.\n\n- Mesh panel: the Density slider now spans the panel, shows its value and has Fewer polygons / More polygons under its ends, with the same look as the Preferences sliders.\n\nUnsigned: on first install choose More info \u003e Run anyway.",
-    "pub_date":  "2026-11-11T18:45:44Z",
+    "version":  "0.114.1",
+    "notes":  "Dahu 0.114.1 beta for Windows.\n\n- Option bar shows every option\u0027s current value in every command, as in Rhino (Radius=3 mm, Cap=Yes, Corner=Round); a typed option value only updates the value and the live preview, Enter or the final pick applies.\n- FilletCrv/ChamferCrv: a typed radius or distance sets the option and the command waits for the two curve picks.\n- FilletSrf now follows the picked sides on intersecting surfaces.\n- New ChamferSrf: chamfer between two surfaces with Distance1/Distance2, Trim and Extend.\n- Project no longer lists Direction= twice.\n\nUnsigned: on first install choose More info \u003e Run anyway.",
+    "pub_date":  "2026-11-12T15:26:29Z",
     "platforms":  {
                       "windows-x86_64-nsis":  {
-                                                  "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN25jUnVqVlFROFJhWnZab0VjT3ViNTZoRS95bktack5WcFU1aFZqR0dkaUt3VHROVWtxcmVjZjV5SUsrVFhLL2dOcVdjSmszK3RQNE5rRUFjS0dWbVFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDIyNDkzCWZpbGU6RGFodV8wLjExMi4xX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjExMi4xCnhJWmFnWWhleTFPTDNzcmQxUEtsVTFJMEIwNGVoUS9aUzN4dmhtUm50VGhOUmQ2QlR3WVJjVmptZmFvcHhvOGxiZzd3aWhJeEY3c0pQaktXVGk3a0N3PT0K",
-                                                  "url":  "https://github.com/mscanga/dahu-releases/releases/download/v0.112.1/Dahu_0.112.1_x64-setup.exe"
+                                                  "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN3BsUzZ1cGdLRjV2bjY2cDlpT2xDaTZMc1Z0dWpYNUhWc2txaFNHNi83bTB0aFlNUjYxNnRlMVZEbjVBT29jU1AybEJPQktxV3UvSXZuOU83Y05HUFFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDk2NjU2CWZpbGU6RGFodV8wLjExNC4xX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjExNC4xClRjaXhBV0Z1bzZ6YVBiWGpIN3BpUmlLRkF0ZkJZelRaL1BCRVp2YVAxRmZnelczTEVYcWV4b0poQzZoMTBVQ1ZzVlEwR0tqV3cwRCtkY1VTL1RDMURBPT0K",
+                                                  "url":  "https://github.com/mscanga/dahu-releases/releases/download/v0.114.1/Dahu_0.114.1_x64-setup.exe"
                                               },
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN25jUnVqVlFROFJhWnZab0VjT3ViNTZoRS95bktack5WcFU1aFZqR0dkaUt3VHROVWtxcmVjZjV5SUsrVFhLL2dOcVdjSmszK3RQNE5rRUFjS0dWbVFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDIyNDkzCWZpbGU6RGFodV8wLjExMi4xX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjExMi4xCnhJWmFnWWhleTFPTDNzcmQxUEtsVTFJMEIwNGVoUS9aUzN4dmhtUm50VGhOUmQ2QlR3WVJjVmptZmFvcHhvOGxiZzd3aWhJeEY3c0pQaktXVGk3a0N3PT0K",
-                                             "url":  "https://github.com/mscanga/dahu-releases/releases/download/v0.112.1/Dahu_0.112.1_x64-setup.exe"
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN3BsUzZ1cGdLRjV2bjY2cDlpT2xDaTZMc1Z0dWpYNUhWc2txaFNHNi83bTB0aFlNUjYxNnRlMVZEbjVBT29jU1AybEJPQktxV3UvSXZuOU83Y05HUFFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDk2NjU2CWZpbGU6RGFodV8wLjExNC4xX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjExNC4xClRjaXhBV0Z1bzZ6YVBiWGpIN3BpUmlLRkF0ZkJZelRaL1BCRVp2YVAxRmZnelczTEVYcWV4b0poQzZoMTBVQ1ZzVlEwR0tqV3cwRCtkY1VTL1RDMURBPT0K",
+                                             "url":  "https://github.com/mscanga/dahu-releases/releases/download/v0.114.1/Dahu_0.114.1_x64-setup.exe"
                                          }
                   }
 }
