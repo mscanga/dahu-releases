@@ -1,15 +1,15 @@
 {
-  "version": "0.137.1",
-  "notes": "Clearer command feedback and more reliable command-history navigation.\n\n### Improved\n- Command results identify the operation, affected geometry and useful values in document units.\n- The compact command area shows concise results; Command history keeps detailed prompts, inputs and point coordinates.\n- Progress updates stay on one line, and repeated operations remain separate in history.\n- Cancellations and Undo/Redo results identify the relevant command.\n\n### Fixed\n- Two-finger scrolling in Command history, suggestions and floating menus no longer navigates the viewport behind them.\n- Removed redundant completion messages that could replace useful transformation results.\n- Layer, property, file and update messages keep their own context while a drawing command is active.\n\n---\nWindows x64 installer with signed automatic updates and the corresponding AGPL source code. The installer is not Authenticode-signed: on first install choose **More info > Run anyway**.",
-  "pub_date": "2026-11-21T01:13:32Z",
-  "platforms": {
-    "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN3IxcDNoSld5U3NTVlBUL2RhMGxpSUVZUWFZTmFjQ0F1bzFvTldrKzJoWGNUeldyNExSTTh5d2FuR2RvUWNvYXg1T2JJMHJUeEhndjJtdm1POC9KR3dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MjIzNTI3CWZpbGU6RGFodV8wLjEzNy4xX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEzNy4xCmh2VEY1RW0wbWtUWmdGaFdlbE9xZkgwdjJraFdpRFBiYmFZZ094aVMvS091aVlKcmMyNmRSRk9LMTdUbGRLQzExbFM1bDIxdFBFcXVraUlTUFRHMUFBPT0K",
-      "url": "https://github.com/mscanga/dahu-releases/releases/download/v0.137.1/Dahu_0.137.1_x64-setup.exe"
-    },
-    "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN3IxcDNoSld5U3NTVlBUL2RhMGxpSUVZUWFZTmFjQ0F1bzFvTldrKzJoWGNUeldyNExSTTh5d2FuR2RvUWNvYXg1T2JJMHJUeEhndjJtdm1POC9KR3dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MjIzNTI3CWZpbGU6RGFodV8wLjEzNy4xX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEzNy4xCmh2VEY1RW0wbWtUWmdGaFdlbE9xZkgwdjJraFdpRFBiYmFZZ094aVMvS091aVlKcmMyNmRSRk9LMTdUbGRLQzExbFM1bDIxdFBFcXVraUlTUFRHMUFBPT0K",
-      "url": "https://github.com/mscanga/dahu-releases/releases/download/v0.137.1/Dahu_0.137.1_x64-setup.exe"
-    }
-  }
+    "version":  "0.139.2",
+    "notes":  "3DM dimensions, a clearer gumball alignment and more reliable touchpad pinch.\n\n### New\n- Dimensions, texts, leaders and text dots in 3DM files now import as annotations with their plane, points and text height; edited dimension texts are kept.\n- 3DM export writes annotations as their lines with a text label, and Dahu reads them back as the original annotations.\n- Alias and shortcut commands are suggested while you type them; Fit and Zoom both find the Fit commands.\n- Dropping a CAD or mesh file onto a document with objects asks whether to import it or open it, and opening asks to save your changes first.\n\n### Improved\n- The gumball alignment (World, Object, CPlane, View) now sits beside the Gumball toggle and only orients the gumball and typed moves and rotations: drawing planes and grids no longer change with it.\n- The CPlane command has a World option to draw on the World planes again.\n- Top, Front and Right keep a visible grid when the CPlane is seen edge-on.\n- History and command history name what changed: Hide layer · Dimensions, Rename · Part → Lid, Rotate, Units · mm → cm.\n- The status bar keeps snaps, Gumball and its alignment visible on narrower screens.\n- The Set CPlane button moved to the View menu.\n- Selection colours stay clearly visible in both themes, and a custom colour that is hard to see shows a warning.\n\n### Fixed\n- Touchpad pinch zoom no longer starts with a small orbit when the fingers move unevenly.\n- The highlight of a gumball scale handle now reaches the centre.\n- Imported dimensions with an edited text no longer offer a text field that cannot be changed.\n\n---\nWindows x64 installer with signed automatic updates and the corresponding AGPL source code. The installer is not Authenticode-signed: on first install choose **More info \u003e Run anyway**.",
+    "pub_date":  "2026-11-22T19:50:10Z",
+    "platforms":  {
+                      "windows-x86_64-nsis":  {
+                                                  "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN21CTVFxejFmM2pja3oyeGxiRUV6SUZSMU5RL1R0QVVabUtyL2luN2VTRE02c0hRSm9veWVZVm14Y1h2VkY5WmdjbEw4SlFST29DUDdKSzB6bVM3QndrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Mzc2ODk0CWZpbGU6RGFodV8wLjEzOS4yX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEzOS4yClRMZktWeDRsbk9ZK0E4UzRNb3FpSWNsQ0JQZThjUTY5K1IvOWhZbWhucG9HSXY0T2xsVERYYTFGMm1WczZpekR0WGR2RjNBcXRQUzVzYkw0QjdjNUJ3PT0K",
+                                                  "url":  "https://github.com/mscanga/dahu-releases/releases/download/v0.139.2/Dahu_0.139.2_x64-setup.exe"
+                                              },
+                      "windows-x86_64":  {
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN21CTVFxejFmM2pja3oyeGxiRUV6SUZSMU5RL1R0QVVabUtyL2luN2VTRE02c0hRSm9veWVZVm14Y1h2VkY5WmdjbEw4SlFST29DUDdKSzB6bVM3QndrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Mzc2ODk0CWZpbGU6RGFodV8wLjEzOS4yX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEzOS4yClRMZktWeDRsbk9ZK0E4UzRNb3FpSWNsQ0JQZThjUTY5K1IvOWhZbWhucG9HSXY0T2xsVERYYTFGMm1WczZpekR0WGR2RjNBcXRQUzVzYkw0QjdjNUJ3PT0K",
+                                             "url":  "https://github.com/mscanga/dahu-releases/releases/download/v0.139.2/Dahu_0.139.2_x64-setup.exe"
+                                         }
+                  }
 }
