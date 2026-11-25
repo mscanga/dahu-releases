@@ -1,15 +1,15 @@
 {
-    "version":  "0.148.2",
-    "notes":  "The grid stays whole in low perspective views, and list text keeps clear of the scrollbar.\n\n### Fixed\n- In Perspective, with the camera close above the grid, the grid in front of the view is no longer cut off.\n- Command reference: command names no longer touch the scrollbar.\n\n---\nWindows x64 installer with signed automatic updates and the corresponding AGPL source code. The installer is not Authenticode-signed: on first install choose **More info \u003e Run anyway**.",
-    "pub_date":  "2026-11-25T14:13:27Z",
+    "version":  "0.149.0",
+    "notes":  "Resizable floating windows, easier-to-drag dialogs and a refined logo.\n\n### New\n- Floating windows (Objects, Groups, Blocks, Saved views, Command reference, Command history…) can be resized from any edge or corner. The size is remembered; double-click the title bar or use View \u003e Reset layout to restore it.\n\n### Improved\n- Every dialog moves by a full-width title bar, including Layouts and Aliases.\n- List rows give their icons and ⋯ more room.\n- The View menu lists views first, then layout, CPlanes and settings.\n- Objects… now opens from Organize only.\n- Refined logo and app icon.\n\n### Fixed\n- Cancel in Grid settings and 3D mouse restores the previous values at once.\n\n---\nWindows x64 installer with signed automatic updates and the corresponding AGPL source code. The installer is not Authenticode-signed: on first install choose **More info \u003e Run anyway**.",
+    "pub_date":  "2026-11-25T20:16:20Z",
     "platforms":  {
                       "windows-x86_64-nsis":  {
-                                                  "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN2x4anZ6dzFtMDJPUXJZeTZFS1NUNC92WG5iS0wvaHBnWEpvaVFGZkZFZmxPRk16aWFPdWxpdFlKM1hVek9BSmoyUklhWlZBSHJZR2t1M2R2QUxIcHdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjE1ODg4CWZpbGU6RGFodV8wLjE0OC4yX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjE0OC4yCkhxQ0tvQUIvZUFhK09RaStIeXlWN3dQaWY1bVNKd1oxeVk1VWtNbFoxRnQ1WWlpR2JaVERWb0FTY090VGlOLzFHM0VXRjl4T09PT1A5KzVpYXplSEJnPT0K",
-                                                  "url":  "https://github.com/mscanga/dahu-releases/releases/download/v0.148.2/Dahu_0.148.2_x64-setup.exe"
+                                                  "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN2k0MlJ2SWo0TFo5eVZDSVg4bDRFUG5pUk55UnQ1RVRReFd2REYxRkQzVG5LZHBZZjE5Nk04N1g0TWY3QzZ6cE9OQUpsOGpSdHNlSmhtYlRSZUhONGc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjM3Njk5CWZpbGU6RGFodV8wLjE0OS4wX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjE0OS4wCnFBYXBnOEM1azR6Wlh4T0N5U0kvaGV3VU5ra283RzZkczc5alU3WitaQ1ZzQ0J0NUhta0pWV1pic1pEb1BIekZjY2MwWkppMTNaeWFlak9QTllsOEFBPT0K",
+                                                  "url":  "https://github.com/mscanga/dahu-releases/releases/download/v0.149.0/Dahu_0.149.0_x64-setup.exe"
                                               },
                       "windows-x86_64":  {
-                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN2x4anZ6dzFtMDJPUXJZeTZFS1NUNC92WG5iS0wvaHBnWEpvaVFGZkZFZmxPRk16aWFPdWxpdFlKM1hVek9BSmoyUklhWlZBSHJZR2t1M2R2QUxIcHdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjE1ODg4CWZpbGU6RGFodV8wLjE0OC4yX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjE0OC4yCkhxQ0tvQUIvZUFhK09RaStIeXlWN3dQaWY1bVNKd1oxeVk1VWtNbFoxRnQ1WWlpR2JaVERWb0FTY090VGlOLzFHM0VXRjl4T09PT1A5KzVpYXplSEJnPT0K",
-                                             "url":  "https://github.com/mscanga/dahu-releases/releases/download/v0.148.2/Dahu_0.148.2_x64-setup.exe"
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReTNuL2tUbHgzN2k0MlJ2SWo0TFo5eVZDSVg4bDRFUG5pUk55UnQ1RVRReFd2REYxRkQzVG5LZHBZZjE5Nk04N1g0TWY3QzZ6cE9OQUpsOGpSdHNlSmhtYlRSZUhONGc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjM3Njk5CWZpbGU6RGFodV8wLjE0OS4wX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjE0OS4wCnFBYXBnOEM1azR6Wlh4T0N5U0kvaGV3VU5ra283RzZkczc5alU3WitaQ1ZzQ0J0NUhta0pWV1pic1pEb1BIekZjY2MwWkppMTNaeWFlak9QTllsOEFBPT0K",
+                                             "url":  "https://github.com/mscanga/dahu-releases/releases/download/v0.149.0/Dahu_0.149.0_x64-setup.exe"
                                          }
                   }
 }
